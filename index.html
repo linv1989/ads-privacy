@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Sijun Ads API Client</title>
+<style>
+  :root{
+    --ink:#1a1a1a; --muted:#5b6470; --line:#e5e8ec; --bg:#ffffff;
+    --accent:#c45500; --soft:#faf7f4;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 24px 96px}
+  header{border-bottom:2px solid var(--ink);padding-bottom:20px;margin-bottom:36px}
+  h1{font-size:30px;line-height:1.3;margin:0 0 10px;letter-spacing:-.3px}
+  .sub{color:var(--muted);font-size:14px;margin:0}
+  h2{font-size:18px;margin:38px 0 10px;padding-left:12px;border-left:3px solid var(--accent)}
+  p{margin:0 0 14px}
+  ul{margin:0 0 14px;padding-left:22px}
+  li{margin:6px 0}
+  table{width:100%;border-collapse:collapse;margin:6px 0 18px;font-size:15px}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:var(--soft);font-weight:600;white-space:nowrap}
+  .box{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:16px 18px;margin:18px 0}
+  .box p:last-child{margin-bottom:0}
+  a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(196,85,0,.35)}
+  footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+  .zh{margin-top:64px;padding-top:8px;border-top:2px dashed var(--line)}
+  code{background:#f2f3f5;padding:1px 5px;border-radius:4px;font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Privacy Policy</h1>
+    <p class="sub">Sijun Ads API Client &nbsp;·&nbsp; Effective date: 17 November 2026 &nbsp;·&nbsp; Version 1.0</p>
+  </header>
+
+  <p>This Privacy Policy explains how <strong>Wenling Sijun E-Commerce Co., Ltd.</strong> ("we", "us", "our") handles
+  information in connection with our internal software application that connects to the <strong>Amazon Ads API</strong>
+  (the "Application"). The Application is used solely to operate, report on and optimise our own advertising
+  campaigns on Amazon marketplaces.</p>
+
+  <h2>1. Who we are</h2>
+  <table>
+    <tr><th>Legal entity</th><td>温岭市思君电子商务有限公司 (Wenling Sijun E-Commerce Co., Ltd.)</td></tr>
+    <tr><th>Country</th><td>China</td></tr>
+    <tr><th>Contact</th><td><a href="mailto:flyyn1989@gmail.com">flyyn1989@gmail.com</a></td></tr>
+    <tr><th>Role</th><td>Direct advertiser. We are both the operator of the Application and the owner of the advertising accounts it accesses.</td></tr>
+  </table>
+
+  <h2>2. Scope of this policy</h2>
+  <p>This policy covers the Application only. It does not cover Amazon's own handling of data, which is governed by the
+  <a href="https://www.amazon.com/privacy">Amazon Privacy Notice</a> and the Amazon Ads API License Agreement and Data
+  Protection Policy that we accepted when our API access was approved.</p>
+
+  <h2>3. What the Application accesses</h2>
+  <p>After an authorised user grants consent through Login with Amazon, the Application may access the following data
+  through the Amazon Ads API, limited to advertising accounts that user is permitted to manage:</p>
+  <ul>
+    <li><strong>Advertising credentials and identifiers</strong> — Login with Amazon tokens (access and refresh tokens),
+        the client ID of our Login with Amazon security profile, and the advertising profile IDs assigned to our accounts.</li>
+    <li><strong>Campaign configuration</strong> — campaigns, ad groups, keywords, product ads, targeting settings, bids,
+        budgets, negative keywords and statuses.</li>
+    <li><strong>Performance and reporting data</strong> — impressions, clicks, cost, attributed sales and units, search terms
+        and other metrics returned by the Amazon Ads reporting API.</li>
+    <li><strong>Advertising account metadata</strong> — marketplace, currency, time zone and account name.</li>
+  </ul>
+  <p>We do <strong>not</strong> access buyer personal data, customer names, shipping addresses, payment details, order-level
+  customer records, or any data from Amazon marketplaces beyond the advertising scope granted above.</p>
+
+  <h2>4. How we use the data</h2>
+  <ul>
+    <li>Generate internal performance reports (spend, ACOS, ROAS, sales, search-term analysis).</li>
+    <li>Adjust bids, budgets and campaign structure to improve advertising efficiency.</li>
+    <li>Detect anomalies such as budget exhaustion, out-of-stock advertising or runaway spend.</li>
+    <li>Maintain a local historical record of advertising performance, because the Amazon Ads API only retains a limited
+        lookback window.</li>
+  </ul>
+  <p>We do not use the data for profiling individuals, and we do not make automated decisions that affect any individual's
+  rights.</p>
+
+  <h2>5. Sharing and disclosure</h2>
+  <p>We do not sell, rent or trade data obtained through the Application. Data is shared only with:</p>
+  <ul>
+    <li><strong>Amazon</strong>, as the API provider, in the ordinary course of making API requests;</li>
+    <li><strong>Infrastructure providers</strong> that host our own servers or storage, under confidentiality obligations and
+        only to the extent needed to operate the Application;</li>
+    <li><strong>Authorities</strong>, where required by applicable law.</li>
+  </ul>
+  <p>The Application is for internal use. It is not distributed to third parties and does not serve third-party advertisers.</p>
+
+  <h2>6. Storage, security and retention</h2>
+  <ul>
+    <li>Credentials are stored on access-controlled infrastructure. Refresh tokens are kept in files readable only by the
+        operating-system account running the Application (file mode <code>0600</code>).</li>
+    <li>All traffic to Amazon endpoints uses HTTPS. We do not transmit credentials over unencrypted channels.</li>
+    <li>Access tokens are short-lived and refreshed automatically; refresh tokens are rotated or re-consented on expiry.</li>
+    <li>Advertising performance data is retained for up to 24 months for year-over-year comparison, then deleted or
+        aggregated. Credentials are deleted when they are no longer needed or upon revocation of consent.</li>
+  </ul>
+
+  <h2>7. Your choices and rights</h2>
+  <p>Consent can be revoked at any time in your Amazon account's permissions settings ("Manage Login with Amazon"). Once
+  consent is revoked, the Application can no longer access your advertising data. You may also contact us to request access
+  to, correction of, or deletion of data we hold, and we will respond within 30 days.</p>
+
+  <h2>8. Children</h2>
+  <p>The Application is a business tool and is not directed to children under 16. We do not knowingly collect data from
+  children.</p>
+
+  <h2>9. Changes to this policy</h2>
+  <p>We may update this policy to reflect changes in the Application or in applicable law. The effective date at the top of
+  this page will be revised, and material changes will be noted on this page.</p>
+
+  <h2>10. Contact</h2>
+  <div class="box">
+    <p><strong>Wenling Sijun E-Commerce Co., Ltd.</strong><br>
+    Email: <a href="mailto:flyyn1989@gmail.com">flyyn1989@gmail.com</a><br>
+    Subject line: "Privacy — Amazon Ads API"</p>
+  </div>
+
+  <div class="zh">
+    <h2 lang="zh-CN">中文说明（摘要）</h2>
+    <p lang="zh-CN">本隐私政策适用于温岭市思君电子商务有限公司（下称"我们"）自用的亚马逊广告 API 客户端程序。该程序仅用于管理我们自己的亚马逊广告账户，不对外提供，也不服务于第三方广告主。</p>
+    <p lang="zh-CN">程序通过 Login with Amazon 授权后访问的数据限于：广告账户标识与授权令牌、广告活动配置（广告活动／广告组／关键词／竞价／预算等）、广告效果报表数据（曝光、点击、花费、归因销售额与销量、搜索词等）、账户元数据。我们<strong>不</strong>访问买家个人信息、收货地址、支付信息或订单级客户数据。</p>
+    <p lang="zh-CN">数据仅用于内部效果分析、竞价与预算调整、异常监控，以及保留必要的历史广告数据（因亚马逊 API 仅提供有限回溯期）。我们不出售、不出租、不交换上述数据。授权可随时在亚马逊账户的"管理 Login with Amazon"中撤销。</p>
+    <p lang="zh-CN">联系方式：<a href="mailto:flyyn1989@gmail.com">flyyn1989@gmail.com</a>。生效日期：2026 年 11 月 17 日。</p>
+  </div>
+
+  <footer>
+    © 2026 Wenling Sijun E-Commerce Co., Ltd. · This page is the privacy statement referenced by our Login with Amazon
+    security profile and by the consent screen shown when our Amazon Ads API client requests authorization.
+  </footer>
+
+</div>
+</body>
+</html>
